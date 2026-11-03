@@ -1,7 +1,7 @@
 ---
 lecture:
-source:
-status: draft
+source: done
+status: done
 ---
 # {{title}}
 
