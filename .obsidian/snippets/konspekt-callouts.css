@@ -2,7 +2,7 @@
    Конспекты: строгий «учебниковый» стиль для тёмной темы
    Цвета: определение — синий, теорема — красный, лемма — жёлтый,
    утверждение — бирюзовый, пример — светло-голубой, контрпример — светло-жёлтый
-   proof       — без рамки, тонкая линия, ∎ в конце
+   proof       — без рамки, тонкая линия, □ в начале, ■ в конце
    ========================================================== */
 
 /* ---------- Цвета ---------- */
@@ -67,8 +67,16 @@
   font-weight: 600;
 }
 .callout[data-callout="proof"] .callout-content { padding: 0; }
+.callout[data-callout="proof"] .callout-title-inner::before {
+  content: "□";
+  font-style: normal;
+  font-size: 1.15em;
+  margin-right: 0.45em;
+  color: var(--text-normal);
+}
 .callout[data-callout="proof"] .callout-content::after {
-  content: "∎";
+  content: "■";
+  font-size: 1.05em;
   display: block;
   text-align: right;
   color: var(--text-muted);
