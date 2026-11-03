@@ -21,7 +21,6 @@ status: done
 > - Топологическую связность часто называют просто связностью, но мы определяем также Линейную связность.
 
 ## Examples
->
 >'''tikz
 >%x
 >\begin{document}
@@ -30,7 +29,7 @@ status: done
 >\draw[very thic] (2,1) -- (-1,1);
 >\end{tikzpicture}
 >\end{document}
->
+>'''
 
 > [!failure] Counterexample
 > …
