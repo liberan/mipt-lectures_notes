@@ -11,14 +11,21 @@
       "query": "file:\"Def.\"",
       "color": {
         "a": 1,
-        "rgb": 9090296
+        "rgb": 5936895
       }
     },
     {
       "query": "file:\"Th.\"",
       "color": {
         "a": 1,
-        "rgb": 15057019
+        "rgb": 15751770
+      }
+    },
+    {
+      "query": "file:\"Lem.\"",
+      "color": {
+        "a": 1,
+        "rgb": 15779900
       }
     },
     {
@@ -39,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.831180542442454,
+  "scale": 3.969266701020796,
   "close": true
 }

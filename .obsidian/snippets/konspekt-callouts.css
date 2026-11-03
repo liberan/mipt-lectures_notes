@@ -1,46 +1,46 @@
 /* ==========================================================
    Конспекты: строгий «учебниковый» стиль для тёмной темы
-   definition  — голубой
-   theorem     — золотой
-   proposition — бирюзовый
+   Цвета: определение — синий, теорема — красный, лемма — жёлтый,
+   утверждение — бирюзовый, пример — светло-голубой, контрпример — светло-жёлтый
    proof       — без рамки, тонкая линия, ∎ в конце
    ========================================================== */
 
 /* ---------- Цвета ---------- */
-.callout[data-callout="definition"]  { --callout-color: 138, 180, 248; }
-.callout[data-callout="theorem"]     { --callout-color: 229, 192, 123; }
-.callout[data-callout="proposition"] { --callout-color: 120, 205, 185; }
+.callout[data-callout="definition"]  { --callout-color: 90, 150, 255; }   /* синий */
+.callout[data-callout="theorem"]     { --callout-color: 240, 90, 90; }    /* красный */
+.callout[data-callout="lemma"]       { --callout-color: 240, 200, 60; }   /* жёлтый */
+.callout[data-callout="proposition"] { --callout-color: 120, 205, 185; }  /* бирюзовый */
 .callout[data-callout="proof"]       { --callout-color: 160, 165, 175; }
 .callout[data-callout="info"]        { --callout-color: 160, 165, 175; }
-.callout[data-callout="example"]     { --callout-color: 140, 200, 130; }
-.callout[data-callout="failure"]     { --callout-color: 235, 120, 120; }
+.callout[data-callout="example"]     { --callout-color: 150, 210, 255; }  /* светло-голубой */
+.callout[data-callout="failure"]     { --callout-color: 255, 235, 150; }  /* светло-жёлтый */
 
 /* ---------- Без иконок ---------- */
 .callout:is([data-callout="definition"], [data-callout="theorem"],
-            [data-callout="proposition"], [data-callout="proof"],
+             [data-callout="proposition"], [data-callout="lemma"], [data-callout="proof"],
             [data-callout="info"], [data-callout="example"],
             [data-callout="failure"]) .callout-icon { display: none; }
 
 /* ---------- Карточки: определение / теорема / утверждение ---------- */
-.callout:is([data-callout="definition"], [data-callout="theorem"], [data-callout="proposition"]) {
+.callout:is([data-callout="definition"], [data-callout="theorem"],  [data-callout="proposition"], [data-callout="lemma"]) {
   background: rgba(var(--callout-color), 0.045);
   border: 1px solid rgba(var(--callout-color), 0.20);
   border-radius: 10px;
   padding: 14px 20px 8px;
   margin: 1.2em 0;
 }
-.callout:is([data-callout="definition"], [data-callout="theorem"], [data-callout="proposition"]) .callout-title {
+.callout:is([data-callout="definition"], [data-callout="theorem"],  [data-callout="proposition"], [data-callout="lemma"]) .callout-title {
   padding: 0 0 4px;
   gap: 0;
 }
-.callout:is([data-callout="definition"], [data-callout="theorem"], [data-callout="proposition"]) .callout-title-inner {
+.callout:is([data-callout="definition"], [data-callout="theorem"],  [data-callout="proposition"], [data-callout="lemma"]) .callout-title-inner {
   color: rgb(var(--callout-color));
   text-transform: uppercase;
   font-size: 0.74em;
   font-weight: 700;
   letter-spacing: 0.14em;
 }
-.callout:is([data-callout="definition"], [data-callout="theorem"], [data-callout="proposition"]) .callout-content {
+.callout:is([data-callout="definition"], [data-callout="theorem"],  [data-callout="proposition"], [data-callout="lemma"]) .callout-content {
   color: var(--text-normal);
   padding: 0;
 }
