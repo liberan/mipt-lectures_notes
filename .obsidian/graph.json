@@ -1,12 +1,34 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-path:\"_Шаблоны\" -file:\"Инструкция\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:\"Def.\"",
+      "color": {
+        "a": 1,
+        "rgb": 9090296
+      }
+    },
+    {
+      "query": "file:\"Th.\"",
+      "color": {
+        "a": 1,
+        "rgb": 15057019
+      }
+    },
+    {
+      "query": "file:\"Prop.\"",
+      "color": {
+        "a": 1,
+        "rgb": 7916985
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
