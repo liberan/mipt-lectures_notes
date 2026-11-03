@@ -10,10 +10,8 @@ status: done
 >
 > $$
 > \begin{aligned}
-> (X,\,d)\ \text{несвязно} \implies\ & X = X_1 \sqcup X_2, \\
-> & X_1,\, X_2 \text{ открытые и непустые множества.} \\
-> (X,\,d)\ \text{связно} \implies\ & X\no X_1 \sqcup X_2, \\
-> & X_1,\, X_2 \text{ открытые и непустые множества.}
+> X = X_1 \sqcup X_2, \text{ где }X_1,\, X_2 \text{ открытые и непустые множества.} \implies\ & (X,\,d)\ \text{несвязно}. \\
+> X \ne X_1 \sqcup X_2, \text{ где }X_1,\, X_2 \text{ открытые и непустые множества.} \implies\ & (X,\,d)\ \text{несвязно}. \\
 > \end{aligned}
 > $$
 
