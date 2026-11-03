@@ -1,0 +1,4 @@
+/* Цвета и иконки для блоков конспекта */
+.callout[data-callout="definition"] { --callout-color: 68, 138, 255;  --callout-icon: lucide-book-open; }
+.callout[data-callout="theorem"]    { --callout-color: 124, 77, 255;  --callout-icon: lucide-sigma; }
+.callout[data-callout="proof"]      { --callout-color: 120, 120, 120; --callout-icon: lucide-pencil-line; }
