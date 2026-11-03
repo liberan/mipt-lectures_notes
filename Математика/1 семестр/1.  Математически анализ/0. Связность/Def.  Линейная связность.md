@@ -1,9 +1,9 @@
 ---
-lecture:
-source: done
+lecture: Многомерный анализ, интегралы и ряды 1. Топологическая и линейная связность
+source: https://www.youtube.com/watch?v=K0UzNz8-2OQ&list=PL4_hYwCyhAvb0EhU9NNaHP4CFyP8BqBsM
 status: done
 ---
-# {{title}}
+# Линейная связность
 
 > [!definition] Definition
 > State the definition in words; formulas go inside `$...$`.
