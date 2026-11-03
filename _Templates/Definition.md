@@ -1,5 +1,6 @@
 ---
-lecture: 
+lecture:
+source:
 status: draft
 ---
 # {{title}}
