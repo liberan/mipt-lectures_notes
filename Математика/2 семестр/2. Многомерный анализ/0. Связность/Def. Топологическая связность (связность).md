@@ -22,6 +22,8 @@ status: done
 > [!example] Example
 >'''tikz
 >\begin{document}
+>\begin{tikzpicture}[scale=1.1, >=stealth]
+>
 >
 >'''
 
