@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "-path:\"_Шаблоны\" -file:\"Инструкция\"",
+  "search": "-path:\"_Templates\" -file:\"Инструкция\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
