@@ -30,9 +30,15 @@
  \fill (1,-0.02) circle (0.7pt);
  \fill (1.02,0) circle (0.7pt);
  \fill (9.8,0) circle (0.7pt);
- \fill (1,1) circle (0.7pt);
- \fill (1,-1) circle (0.7pt);
- \fill (2,0) circle (0.7pt);
+ \fill (1.02,1) circle (0.7pt);
+ \fill (1.02,-1) circle (0.7pt);
+ \fill (2.02,0) circle (0.7pt);
+ \fill (3.02,0) circle (0.7pt);
+ \fill (4.02,0) circle (0.7pt);
+ \fill (5.02,0) circle (0.7pt);
+ \fill (9.8,1) circle (0.7pt);
+ \fill (9.8,-1) circle (0.7pt);
+ \fill (1.,0) circle (0.7pt);
  \fill (3,0) circle (0.7pt);
  \fill (4,0) circle (0.7pt);
  \fill (5,0) circle (0.7pt);
