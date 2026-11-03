@@ -10,7 +10,9 @@ status: done
 >
 > $$
 > \begin{aligned}
-> (X,\,d)\ \text{несвязно} \iff\ & X = X_1 \sqcup X_2, \\
+> (X,\,d)\ \text{несвязно} \implies\ & X = X_1 \sqcup X_2, \\
+> & X_1,\, X_2 \text{ открытые и непустые множества.} \\
+> (X,\,d)\ \text{связно} \implies\ & X\no X_1 \sqcup X_2, \\
 > & X_1,\, X_2 \text{ открытые и непустые множества.}
 > \end{aligned}
 > $$
@@ -23,7 +25,9 @@ status: done
 >'''tikz
 >\begin{document}
 >\begin{tikzpicture}[scale=1.1, >=stealth]
->
+>\draw[very thic]
+>\
+
 >
 >'''
 
