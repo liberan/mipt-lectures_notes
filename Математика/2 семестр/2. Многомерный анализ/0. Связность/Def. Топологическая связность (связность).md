@@ -11,7 +11,7 @@ status: done
 > $$
 > \begin{aligned}
 > (X,\,d)\ \text{несвязно} \iff\ & X = X_1 \sqcup X_2, \\
-> & X_1,\, X_2 \text{ открыты и непусты.}
+> & X_1,\, X_2 \text{ открытые и непустые множества.}
 > \end{aligned}
 > $$
 
@@ -20,7 +20,10 @@ status: done
 
 ## Examples
 > [!example] Example
-> …
+>'''tikz
+>\begin{document}
+>
+>'''
 
 > [!failure] Counterexample
 > …
