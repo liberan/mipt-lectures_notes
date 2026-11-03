@@ -24,8 +24,12 @@
  \fill (5,0) circle (0.7pt);
  \fill (0,0.02) circle (0.7pt);
  \fill (0,-0.02) circle (0.7pt);
- \fill (1,0) circle (0.7pt);
- \fill (1,2) circle (0.7pt);
+ \fill (1,0.02) circle (0.7pt);
+ \fill (1,-0.02) circle (0.7pt);
+ \fill (1,2.02) circle (0.7pt);
+ \fill (1,-0.02) circle (0.7pt);
+ \fill (1.02,0) circle (0.7pt);
+ \fill (9.8,0) circle (0.7pt);
  \fill (1,1) circle (0.7pt);
  \fill (1,-1) circle (0.7pt);
  \fill (2,0) circle (0.7pt);
