@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "sources": [],
+    "mobileWifiOnly": false,
+    "defaultMaxSizeMB": 500
+  },
+  "sourceStates": {},
+  "logs": {}
+}
