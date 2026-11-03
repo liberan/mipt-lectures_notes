@@ -1,0 +1,66 @@
+.halyard-fetch-empty-state {
+	padding: 1em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.halyard-fetch-status-bar {
+	cursor: pointer;
+}
+
+.halyard-fetch-ribbon-failing {
+	color: var(--text-error);
+}
+
+.halyard-fetch-wizard-modal .halyard-fetch-wizard-footer {
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.5em;
+	margin-top: 1.5em;
+}
+
+.halyard-fetch-wizard-modal .halyard-fetch-wizard-status {
+	margin: 0.5em 0;
+	font-weight: 600;
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-list {
+	max-height: 60vh;
+	overflow-y: auto;
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-entry {
+	display: flex;
+	gap: 0.75em;
+	padding: 0.35em 0;
+	border-bottom: 1px solid var(--background-modifier-border);
+	font-size: var(--font-ui-small);
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-time {
+	opacity: 0.7;
+	white-space: nowrap;
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-source {
+	font-weight: 600;
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-success {
+	color: var(--text-success);
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-failure {
+	color: var(--text-error);
+}
+
+.halyard-fetch-log-viewer .halyard-fetch-log-detail {
+	opacity: 0.85;
+	overflow-wrap: anywhere;
+}
+
+.halyard-fetch-notice-actions {
+	display: flex;
+	gap: 0.5em;
+	margin-top: 0.5em;
+}
