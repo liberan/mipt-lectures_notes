@@ -3,7 +3,7 @@
 source: "[[Beklemisheva_L_a_Beklemishev_D_v_Petrovich_A_yu_Chubarov_I_a_Sbornik.pdf]]"
 status: draft
 ---
-Фундаментальная Матрица
+# Фундаментальная Матрица
 
 > [!definition] Definition
 > State the definition in words; formulas go inside `$...$`.
