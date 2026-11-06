@@ -6,7 +6,7 @@ status: draft
 # Фундаментальная Матрица
 
 > [!definition] Definition
-> State the definition in words; formulas go inside `$...$`.
+> Матрица F 
 >
 > $$
 > \text{short formal statement}
